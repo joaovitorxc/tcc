@@ -1,0 +1,67 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #E3CEA6;
+    font-family: Arial, sans-serif;
+    justify-content: flex-end;
+    padding: 100px
+}
+
+.container{
+    display: grid;
+    grid-template-columns: 40% 60%
+}
+
+.container-direita {
+    width: 90%; /* Aumenta a largura da div para 80% da tela */
+    max-width: 650px; /* Aumenta a largura máxima para 800px */
+    padding: 80px 70px; /* Aumenta o padding interno */
+    background-color: antiquewhite;
+    text-align: left;
+    border-radius: 10px;
+    margin-top: 50px;
+    align-items: left;
+}
+
+h2 {
+    margin-bottom: 30px;
+    font-size: 1.5em;
+}
+
+button {
+    border-radius: 15px;
+    padding: 10px 20px;
+    margin: 10px;
+    width: 80%;
+    max-width: 300px;
+    border: none;
+    background-color: #D3A36E;
+    color: white;
+    font-size: 1em;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #b9814f;
+}
+
+/* Responsivo */
+@media (max-width: 700px) {
+    .comece {
+        width: 95%; /* Em telas menores, a div ocupa quase toda a largura */
+        padding: 40px 40px;
+    }
+
+    h2 {
+        font-size: 2.1em;
+    }
+
+    button {
+        width: 100%;
+    }
+}
