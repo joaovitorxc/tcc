@@ -19,3 +19,5 @@ function mostrarPagina(id) {
         console.error('Elementos das páginas não encontrados.');
     }
 }
+
+        //teste js
