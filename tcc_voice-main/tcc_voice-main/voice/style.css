@@ -17,8 +17,8 @@ body {
 }
 
 .container-direita {
-    width: 90%; /* Aumenta a largura da div para 80% da tela */
-    max-width: 650px; /* Aumenta a largura máxima para 800px */
+    width: 90%; /* Aumenta a largura da div  */
+    max-width: 650px; /* Aumenta a largura máxima  */
     padding: 80px 70px; /* Aumenta o padding interno */
     background-color: antiquewhite;
     text-align: left;
@@ -53,7 +53,7 @@ button:hover {
 /* Responsivo */
 @media (max-width: 700px) {
     .comece {
-        width: 95%; /* Em telas menores, a div ocupa quase toda a largura */
+        width: 95%; /* em telas menores, a div ocupa quase toda a largura */
         padding: 40px 40px;
     }
 
@@ -66,3 +66,109 @@ button:hover {
     }
 }
       /* teste */
+
+      body {
+        font-family: Arial, sans-serif;
+        background-color: #f0f0f0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        margin: 0;
+    }
+   
+    .image-container {
+        width: 300px; /* ou o tamanho desejado */
+        height: 300px; /* ou o tamanho desejado */
+        overflow: hidden; /* para esconder partes da imagem que excedam o contêiner */
+    }
+
+    .logo2{
+        align-items: center;
+        justify-content: center;
+        display: flex;
+    }
+    
+    
+    
+    
+    .login-container {
+        background-color: #e6e6fa; /* Cor de fundo roxa clara */
+        border-radius: 20px;
+        box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+        width: 350px;
+        padding: 30px;
+        justify-content: center;
+    }
+    
+    .login-box h2 {
+        text-align: center;
+        color: #333;
+        margin-bottom: 20px;
+    }
+    
+    .input-field {
+        width: 100%;
+        padding: 15px;
+        margin: 10px 0;
+        border: 1px solid #ddd;
+        border-radius: 30px;
+        box-sizing: border-box;
+        background-color: #f0f0ff; /* Cor de fundo clara para os campos de entrada */
+        font-size: 14px;
+    }
+    
+    .login-button {
+        width: 100%;
+        padding: 15px;
+        background-color: #20b2aa; /* Cor verde-azulada para o botão ENTRAR */
+        color: white;
+        border: none;
+        border-radius: 30px;
+        cursor: pointer;
+        font-size: 16px;
+        margin-top: 10px;
+    }
+    
+    .login-button:hover {
+        background-color: #1a998b; /* Cor mais escura para o hover */
+    }
+    
+    .or-divider {
+        display: flex;
+        align-items: center;
+        margin: 20px 0;
+        color: #888;
+        font-size: 14px;
+    }
+    
+    .or-divider::before, .or-divider::after {
+        content: "";
+        flex: 1;
+        border-bottom: 1px solid #ddd;
+    }
+    
+    .or-divider span {
+        padding: 0 10px;
+    }
+    
+    .google-button {
+        width: 100%;
+        padding: 15px;
+        background-color: #fff;
+        color: #777;
+        border: 1px solid #ddd;
+        border-radius: 30px;
+        cursor: pointer;
+        font-size: 16px;
+        margin-top: 10px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .google-button:hover {
+        background-color: #f9f9f9;
+    }
+    
+    
